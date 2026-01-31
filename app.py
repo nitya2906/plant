@@ -1,5 +1,9 @@
 import streamlit as st
-import google.generativeai as genai   
+import cv2
+import numpy as np
+from PIL import Image
+import google.generativeai as genai
+
 
 # 🔑 Put your Gemini API key here
 genai.configure(api_key="PASTE_YOUR_GEMINI_API_KEY_HERE")
